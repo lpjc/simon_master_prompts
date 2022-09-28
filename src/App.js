@@ -84,7 +84,7 @@ function App() {
       <button 
         onClick={()=> (setTest(test+1))+ console.log(test)}
         style ={{width: '20%', height: '40px'}}
-      >  Click me </button> 
+      >  Find på noget </button> 
     </div>
 
   );

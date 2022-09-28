@@ -65,9 +65,12 @@ function App() {
   const [test, setTest] = useState(0)
 
  return (
+  
     <div style={{ margin: '0px', height: '100%', display: 'flex', flexDirection:'column', alignItems: 'center'}}>
       <Sparkle/>
+      <div className='iconWrap'/> 
       <div style={{ height: '80px', display: 'flex'}}>
+        
         <h1 style={{ fontSize: "35px" }}>
           Simons Speciale</h1>
        
@@ -80,7 +83,8 @@ function App() {
         på {randomFromArray(på)}.
 
       </div>
-
+      
+  
       <button 
         onClick={()=> (setTest(test+1))+ console.log(test)}
         style ={{width: '20%', height: '40px'}}

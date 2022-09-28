@@ -8,8 +8,21 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .iconWrap{
+    background-image: url(./simon_logo.png);
+    background-size: cover;
+    height: 30vh;
+    width: 20vh;
+    animation: App-logo-spin infinite 80s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
